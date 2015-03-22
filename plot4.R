@@ -26,7 +26,7 @@ plot4 <- function()
   
   
   #Create the plot in png file
-  png("plot1.png",width = 480, height = 480, bg="transparent")
+  png("plot4.png",width = 480, height = 480, bg="transparent")
   boxplot(data$Emissions ~ data$SCC, data=data, 
           xlab="coal combustion-related", ylab="emissions" )
   #close
